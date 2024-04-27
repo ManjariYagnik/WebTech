@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_page</title>
+    <link rel="stylesheet" href="style-registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="section">
+            <div class="inside_section">
+                EXTRA 5% DISCOUNT FOR ALL ONLINE PAYMENTS
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="leftnavlogo">
+                <div class="logo"><img src="./puma logo.png" alt="puma logo"></div>
+                <div class="links">
+                    <div class="dropdown" onmouseover="expandDropdown('newDropdown')"
+                        onmouseout="collapseDropdown('newDropdown')">
+                        <a href="New">New</a>
+                        <div class="dropdown-content" id="newDropdown">
+                            <a href="https://in.puma.com/in/en/mens/mens-new-arrivals">Men</a>
+                            <a href="https://in.puma.com/in/en/womens/womens-new-arrivals">Women</a>
+                            <a href="https://in.puma.com/in/en/kids/kids-new-arrivals">Kids and Teens</a>
+                        </div>
+                    </div>
+                    <div class="dropdown" onmouseover="expandDropdown('womenDropdown')"
+                        onmouseout="collapseDropdown('womenDropdown')">
+                        <a href="Women">Women</a>
+                        <div class="dropdown-content" id="womenDropdown">
+                            <a href="https://in.puma.com/in/en/womens/womens-shoes">Women's Shoes</a>
+                            <a
+                                href="https://in.puma.com/in/en/womens/womens-clothing/womens-clothing-t-shirts-and-tops">Women's
+                                Tshirts and tops</a>
+                            <a
+                                href="https://in.puma.com/in/en/womens/womens-clothing/womens-clothing-sweatshirts-and-hoodies">Women's
+                                Sweatshirts</a>
+                            <a href="https://in.puma.com/in/en/womens/womens-clothing/womens-clothing-jackets">Women's
+                                Jackets</a>
+                        </div>
+                    </div>
+                    <div class="dropdown" onmouseover="expandDropdown('menDropdown')"
+                        onmouseout="collapseDropdown('menDropdown')">
+                        <a href="Men">Men</a>
+                        <div class="dropdown-content" id="menDropdown">
+                            <a href="https://in.puma.com/in/en/mens/mens-shoes">Men's Shoes</a>
+                            <a href="https://in.puma.com/in/en/mens/mens-clothing/mens-clothing-t-shirts-and-tops">Men's
+                                Tshirts</a>
+                            <a
+                                href="https://in.puma.com/in/en/mens/mens-clothing/mens-clothing-sweatshirts-and-hoodies">Men's
+                                Sweatshirts</a>
+                        </div>
+                    </div>
+                    <div class="dropdown" onmouseover="expandDropdown('kidsDropdown')"
+                        onmouseout="collapseDropdown('kidsDropdown')">
+                        <a href="Kids">Kids</a>
+                        <div class="dropdown-content" id="kidsDropdown">
+                            <a href="https://in.puma.com/in/en/kids/kids-boys/kids-boys-shoes">Kid's Shoes</a>
+                            <a
+                                href="https://in.puma.com/in/en/kids/kids-boys/kids-boys-clothing/kids-boys-clothing-tops">Kid's
+                                Tshirts</a>
+                            <a
+                                href="https://in.puma.com/in/en/kids/kids-girls/kids-girls-clothing/kids-girls-clothing-hoodies-sweatshirt">kid's
+                                Sweatshirts</a>
+                        </div>
+                    </div>
+                    <div class="dropdown" onmouseover="expandDropdown('collaborationDropdown')"
+                        onmouseout="collapseDropdown('collaborationDropdown')">
+                        <a href="Collaboration">Collaboration</a>
+                        <div class="dropdown-content" id="collaborationDropdown">
+                            <a href="https://in.puma.com/in/en/curated-looks/harrdy-collection">Celebrity
+                                Collaborations</a>
+                            <a
+                                href="https://in.puma.com/in/en/collaborations/collaborations-partnerships/puma-x-one-piece">Artist
+                                Collaborations</a>
+                            <a
+                                href="https://in.puma.com/in/en/collaborations/collaborations-partnerships/collaborations-partnerships-one8">Puma
+                                x One8</a>
+                        </div>
+                    </div>
+                    <div class="dropdown" onmouseover="expandDropdown('sportsDropdown')"
+                        onmouseout="collapseDropdown('sportsDropdown')">
+                        <a href="Sports">Sports</a>
+                        <div class="dropdown-content" id="sportsDropdown">
+                            <a href="https://in.puma.com/in/en/sports/sports-running">Running</a>
+                            <a href="https://in.puma.com/in/en/sports/sports-football">Football</a>
+                            <a href="https://in.puma.com/in/en/sports/sports-basketball">Basketball</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightnavlogo">
+                <div class="Nav_search">
+                    <div class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <input class="search" placeholder="SEARCH" type="text">
+                </div>
+                <div class="personal_icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="parent-box">
+        <div class="child-box">
+            <div class="Toggle-box">
+
+            </div>
+
+            <div class="register">
+                <div class="labels">
+                    <span>First Name</span>
+                    <span>Last Name</span>
+                    <span>Phone</span>
+                    <span>Email</span>
+                    <span>Password</span>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="fname" placeholder="First Name">
+                    <input type="text" id="lname" placeholder="Last Name">
+                    <input type="tel" id="login-phone" placeholder="Phone Number">
+                    <input type="text" id="login-email" placeholder="Email">
+                    <input type="password" id="login-password" placeholder="Password">
+                </div>
+            </div>
+            <button class="subme" onclick="savePassword()">Sign UP </button>
+
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+            <div class="foot-panel1_information">
+                <ul>
+                    <p><b>SUPPORT</b></p>
+                    <a>Contact us</a>
+                    <a>Promotions and Sale</a>
+                    <a>Track Order</a>
+                    <a>Privacy Policy</a>
+                    <a>Terms and Conditions</a>
+                </ul>
+
+                <ul>
+                    <br>
+                    <a>FAQs</a>
+                    <a>My Account</a>
+                    <a>Return Policy</a>
+                    <a>Tech Glossary</a>
+                </ul>
+
+                <ul>
+                    <p><b>ABOUT</b></p>
+                    <a>Company</a>
+                    <a>Corporate News</a>
+                    <a>Press Centers</a>
+                    <a>Inventors</a>
+                    <a>Careers</a>
+                    <a>sustainability</a>
+                </ul>
+            </div>
+            <div class="foot-panel1_social">
+                <p><b>STAY UP TO DATE</b></p>
+                <div class="foot-panel1_social_handles">
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

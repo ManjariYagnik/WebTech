@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice_Project</title>
+    <link rel="stylesheet" href="Practice_style.css">
+    <style>
+      .carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.carousel_image{
+  height:100%;
+  width:100%;
+  object-fit:cover;
+}
+.slide {
+  flex: 0 0 100%;
+  height: 300px; /* Adjust the height of the carousel */
+  background-size: cover;
+}
+
+/* Additional styling for navigation buttons */
+.carousel-nav {
+  text-align: center;
+}
+
+.carousel-nav button {
+  margin: 0 5px;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+  <div class="carousel-container">
+    <div class="carousel">
+      <div class="slide">
+        <img class="carousel_image" src="main_image.webp" alt="First slide">
+      </div>
+      <div class="slide">
+        <img class="carousel_image" src="Labels.png" alt="Second slide">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

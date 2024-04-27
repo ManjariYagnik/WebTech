@@ -1,0 +1,462 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+* {
+    margin: 0;
+}
+
+/* a {
+    text-transform: none;
+    text-decoration: none;
+} */
+
+.section {
+    height: 54px;
+    background-color: #8A7350;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside_section {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    width: 90px;
+    /* padding: 10px; */
+}
+
+.leftnavlogo {
+    height: 80px;
+    width: 840.56px;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.links a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid transparent;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    border-bottom-color: goldenrod;
+}
+
+.show {
+    display: block;
+}
+
+.rightnavlogo {
+    height: 80px;
+    width: 350px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nav_search {
+    width: 134.14px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    width: 60.54px;
+    height: 24px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.search_icon {
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.personal_icons {
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin: 10px;
+}
+
+.main_section {
+    height: 500px;
+}
+
+.front_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.Combination {
+    width: 100%;
+    height: 250.52px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Trending {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Extra_Discount {
+    width: 100%s;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.category img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.other1 {
+    height: 530px;
+}
+
+.other1_image img {
+    width: 100%;
+    height: 100%;
+}
+.section2 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+}
+
+
+.initial_heading {
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image_section2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* margin:5px; */
+
+}
+
+.image_section2 {
+    width: 372.53px;
+    height: 500px;
+    position: relative;
+}
+
+.image_section2 h1{
+    font-family: Poppins;
+}
+
+.image_section2 img{
+    width:100%;
+    height:100%;
+    transition:transform 0.3s ease;
+}
+.image_section2:hover img{
+    transform: scale(1.2);
+}
+.image_text {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+    text-decoration:none;
+}
+@keyframes hoverEnlarge {
+0%{
+transform: scale(1);
+ } /* Original size */
+50%{
+transform:scale(1.1); /* Enlarge to 110% */
+}
+｝
+100%{
+transform:scale(1); /* Return to original size */
+}
+}
+• image_section2 img:hover{
+animation: hoverEnlarge 3s infinite; /* Apply animation on hover */
+}
+.other2 {
+    height: 530px;
+}
+
+.other2_image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* body{
+    font-family: Poppins;
+} */
+.foot-panel1{
+    background-color:black;
+    color:white;
+    height:300px;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.foot-panel1_information{
+    height:200px;
+    width:1000px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:space-evenly;
+}
+ul{
+    margin-top:30px;
+}
+ul a{
+    display:block;
+    margin-top:10px;
+    font-size: 17px;
+    font-size:0.85rem;
+}
+.foot-panel1_social{
+    padding-top:30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:100px;
+    width:300px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+}
+.foot-panel1_social_handles{
+    margin-top:10px;
+    height:80px;
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+}
+
+
+.section{
+    font-size: 15px;
+    font-weight: 600;
+    color:#fff;
+    font-family: monospace Poppins;
+
+}
+
+.navbar .leftnavlogo .logo img{
+    width: 100px;
+}
+
+.navbar .links a{
+    font-family: Poppins;;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Nav_search input{
+    width: 140px;
+}
+
+.Combination .Trending{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Combination .Trending h1{ 
+    margin-bottom: 17px;
+}
+
+.slideshow-container {
+    max-width: 1400px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
